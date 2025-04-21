@@ -11,4 +11,23 @@ answer: functional components are :
 
 class components are :
 1. uses es6 class components 
-2. handle state 
+2. handle state with this.state
+
+Question 3: what is useEffect?
+when does it run?
+can you give a use case where we whould use it?
+answer: useEffect is a react hook that allows you to perform side effects in functional components -like:
+1. fetching data from an API
+2. Updating the DOM
+3. Setting up a timer
+4. Subscibing/unsubscribing from services.
+
+when does it run
+bydefault useEffect runs after the component it rendered.
+You can control when it runs using the dependency array.
+useEffect(()=>{
+    // This code runs after every render
+})
+
+
+Common Use Case:

@@ -1,0 +1,14 @@
+question1: what is the diffrtence between == and  === in java script?
+answer: ==(loose equality) compares two values after converting there types if necessary it checks only value not types.
+===(strong equality)checks value and type were same if the type not same it returns false.
+
+question 2: what are the main diffrence between functional component and class components
+answer: functional components are :
+1. a simple java script function return jsx.
+2. uses react hooks (useState and useEffect) to handle state and lifecycle
+3.Easier to write and understand 
+4. mordern react prefers functional components
+
+class components are :
+1. uses es6 class components 
+2. handle state 
